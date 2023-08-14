@@ -32,12 +32,6 @@
   }
 }
 
-.zipit {
-  background: url('./ZipitLogo.svg') no-repeat center center;
-  height: 100%;
-  width: 100%;
-}
-
 .earth-land {
   animation-duration: 5s;
   animation-fill-mode: linear;
@@ -81,4 +75,17 @@
   100% {
     opacity: 100%;
   }
+}
+
+.global {
+  backdrop-filter: blur(80px);
+  background-color: linear-gradient(to left, #743ad5, #d53a9d);
+  border: 1px solid;
+  padding: 1rem;
+}
+
+.zipit {
+  background: url('./ZipitLogo.svg') no-repeat center center;
+  height: 100%;
+  width: 100%;
 }

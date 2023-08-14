@@ -30,7 +30,7 @@
         visibility: hidden;
       }
     </style>
-    <title>Zipit Wireless</title>
+    <title>Zipit Global</title>
   </head>
 
   <!-- body -->
@@ -38,23 +38,16 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="curtain">
       <div id="boot-animation">
-        <div class="zipit"></div>
+        <div class="zipit"></div> 
+        <!-- <div class="spatial-card">
+          <div class="global">
+            Global
+          </div>
+        </div> -->
         <div class="earth-water earth-water-position earth-water-opacity">
           <div class="earth-land earth-land-position"></div>
         </div>
       </div>
     </div>
-    <div id="root"></div>
   </body>
-
-  <!-- boot animation listener -->
-  <script type="text/javascript">
-    window.isBootAnimationComplete = false;
-    const bootAnimation = document.getElementById('boot-animation');
-    bootAnimation.addEventListener('animationend', (e) => {
-      if (e.target === bootAnimation) {
-        window.isBootAnimationComplete = true;
-      }
-    });
-  </script>
 </html>
